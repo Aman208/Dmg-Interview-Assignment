@@ -1,0 +1,38 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Runtime / local config
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+coverage/
+
+# Build tooling
+.mvn/timing.properties
